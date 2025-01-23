@@ -6,10 +6,17 @@ header{
 }
 .header-button{
     padding-bottom:5px;
-    border-bottom:1px solid red;
     padding-left:10px;
     padding-right:10px;
     margin:0 30px;
+    border:1px solid #000;
+    background-color:#dcdcdc;
+}
+.header-button:hover{
+
+}
+.header-button.active{
+    background-color:red;
 }
 .main-area{
     display:none;
