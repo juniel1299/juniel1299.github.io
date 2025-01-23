@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="common.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>이력서</title>
 </head>
 <body>
-    <div>
+    <header class="display-flex">
+        <div class="header-button" style="margin-left:auto;" data-target="home-area">
+            Home
+        </div>
+        <div class="header-button" data-target="introduce-area">
+            소개
+        </div>
+        <div class="header-button" data-target="skill-area">
+            기술
+        </div>
+        <div class="header-button" style="margin-right:50px;" data-target="career-area">
+            경력
+        </div>
+    </header>
+    <div class="main-area">
         테스트
+    </div>
+
+    <div id="homt-area" class="main-area active">
+        홈 영역
+    </div>
+    <div id="introduce-area" class="main-area">
+        소개 영역
+    </div>
+    <div id="skill-area" class="main-area">
+        기술 영역
+    </div>
+    <div id="career-area" class="main-area">
+        커리어 영역
     </div>
 </body>
 </html>

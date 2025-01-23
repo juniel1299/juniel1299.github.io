@@ -1,0 +1,19 @@
+header{
+    width:100%;
+}
+.display-flex{
+    display:flex;
+}
+.header-button{
+    padding-bottom:5px;
+    border-bottom:1px solid red;
+    padding-left:10px;
+    padding-right:10px;
+    margin:0 30px;
+}
+.main-area{
+    display:none;
+}
+.main-area.active{
+    display:block;
+}
