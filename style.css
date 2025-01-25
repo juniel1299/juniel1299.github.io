@@ -21,6 +21,7 @@ header{
 .main-area{
     display:none;
     margin:30px auto;
+    min-width:500px;
     width:calc(-100px + 80vw);
 }
 .main-area.active{
