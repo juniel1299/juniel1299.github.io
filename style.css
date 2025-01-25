@@ -54,3 +54,17 @@ header{
 .text-last-line{
     margin-bottom:10px;
 }
+.career-serve-area{
+    margin-left:30px;
+    margin-top:10px;
+}
+.career-serve-title{
+    font-weight:bold;
+}
+.career-period-text{
+    font-weight:400;
+    color:#1d1d1d;
+}
+.career-detail-area{
+    margin-left:30px;
+}
