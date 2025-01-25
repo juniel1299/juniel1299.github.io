@@ -20,7 +20,37 @@ header{
 }
 .main-area{
     display:none;
+    margin:30px auto;
+    width:calc(-100px + 80vw);
 }
 .main-area.active{
     display:block;
+}
+.main-text{
+    font-size:22px;
+    font-weight:bold;
+    padding:5px 0px;
+    border-bottom:1px solid #000;
+}
+.first-area{
+    margin-top:20px;
+}
+.list-icon{
+    color:#1c1c1c;
+    margin-right:10px;
+}
+.flex-display{
+    display:flex;
+}
+.serve-text{
+    font-size:18px;
+}
+.body-text-height{
+    margin-top:10px;
+}
+.text-red-color{
+    color:red;
+}
+.text-last-line{
+    margin-bottom:10px;
 }
