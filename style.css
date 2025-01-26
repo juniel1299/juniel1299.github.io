@@ -1,5 +1,12 @@
+body{
+    word-break: keep-all;
+}
 header{
     width:100%;
+}
+h3{
+    font-size:1.5rem;
+    font-weight:bold;
 }
 .display-flex{
     display:flex;
@@ -22,7 +29,7 @@ header{
     display:none;
     margin:30px auto;
     min-width:500px;
-    width:calc(-100px + 80vw);
+    width:calc(-100px + 60vw);
 }
 .main-area.active{
     display:block;
@@ -56,8 +63,7 @@ header{
     margin-bottom:10px;
 }
 .career-serve-area{
-    margin-left:30px;
-    margin-top:10px;
+    margin-left:auto;
 }
 .career-serve-title{
     font-weight:bold;
@@ -68,4 +74,7 @@ header{
 }
 .career-detail-area{
     margin-left:30px;
+}
+.center-align-items{
+    align-items:center;
 }
