@@ -8,24 +8,20 @@
 </head>    
 <body>
     <header class="display-flex">
-        <div class="header-button active" style="margin-left:auto;" data-target="home-area">
-            Home
-        </div>
-        <div class="header-button" data-target="introduce-area">
+        <div class="header-button right active" data-target="introduce-area">
             소개
         </div>
         <div class="header-button" data-target="skill-area">
             기술
         </div>
-        <div class="header-button" style="margin-right:50px;" data-target="career-area">
+        <div class="header-button" data-target="career-area">
             경력
         </div>
+        <div class="header-button" style="margin-right:50px;" data-target="detail-area">
+            상세
+        </div>
     </header>
-
-    <div id="home-area" class="main-area active">
-        홈 영역
-    </div>
-    <div id="introduce-area" class="main-area">
+    <div id="introduce-area" class="main-area active">
         <div class="main-text ">
             소개
         </div>
@@ -70,28 +66,44 @@
         <div class="main-text ">
             경력
         </div>
-        <div class="flex-display center-align-items" style="margin-top:20px;">
+        <div class="flex-display" style="margin-top:20px;">
             <div class="inside-text flex-display serve-text">
                 <h3 class="office-name-text">
-                    <span class="list-icon" style="margin-right:0px;">
-                        ●
-                    </span>
+                    <div class="office-name-area">
                     플레이 투게더
-                    <div>
+                    </div>
+                    <div class="position-font-size">
+                        Full-Stack Developer
+                    </div>
+                    <div class="date-font-size">
                         (2024/07/01 ~ ing)
                     </div>
                 </h3>
             </div>
             <div class="serve-text career-serve-area career-serve-title">
                 프로젝트 명 : Opex PQ기반 통합관리 시스템 구축
-                <div class="serve-text career-serve-area career-serve-title">
+                <div class="serve-text career-serve-area career-period-text career-period-area">
+                    (2024/07 ~ 2025/01)
+                </div>
+                <div class="serve-text career-serve-area career-serve-title right-area-line-height">
                     파견 회사 : Sk hynix (분당)
-                    <div class="serve-text career-serve-area career-period-text">
-                        프로젝트 참여 기간 : (2024/07 ~ 2025/01)
+                    <div class="detail-button" data-target="Opex-detail-work-area">
+                        상세 보기
+                    </div>
+                </div>
+                <div class="detail-career-area carrer-inside-detail" id="Opex-detail-work-area">
+                    <div>
+                        프로젝트 설명
+                    </div>
+                    <div>
+                        ㅇㅇ
                     </div>
                 </div>
             </div>
         </div>   
+    </div>
+    <div id="detail-area" class="main-area">
+        상세 영역
     </div>
     <script src="jquery-3.7.1.min.js"></script>
     <script src="common.js"></script>

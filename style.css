@@ -2,11 +2,15 @@ body{
     word-break: keep-all;
 }
 header{
-    width:100%;
+    min-width:500px;
+    width:calc(-100px + 60vw);
+    margin:auto;
 }
 h3{
-    font-size:1.5rem;
+    font-size:26px;
     font-weight:bold;
+    margin:0;
+    padding:0;
 }
 .display-flex{
     display:flex;
@@ -15,7 +19,7 @@ h3{
     padding-bottom:5px;
     padding-left:10px;
     padding-right:10px;
-    margin:0 30px;
+    margin:auto;
     border:1px solid #000;
     background-color:#dcdcdc;
 }
@@ -62,6 +66,9 @@ h3{
 .text-last-line{
     margin-bottom:10px;
 }
+.header-button.right{
+    margin-left:auto;
+}
 .career-serve-area{
     margin-left:auto;
 }
@@ -72,9 +79,44 @@ h3{
     font-weight:400;
     color:#1d1d1d;
 }
+.career-period-area{
+    margin:10px 0px;
+}
 .career-detail-area{
     margin-left:30px;
 }
 .center-align-items{
     align-items:center;
+}
+.right-area-line-height{
+    margin-top:5px;
+}
+.date-font-size{
+    font-size:16px;
+    font-weight:400;
+}
+.position-font-size{
+    font-size:18px;
+    font-weight:400;
+}
+.office-name-area{
+    margin-bottom:10px;
+}
+.detail-career-area{
+    display:none;
+}
+.detail-career-area.active{
+    display:flex;
+}
+/* 변경 예정 */
+.detail-button{
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid #000;
+    background-color:#dcdcdc;
+    width:80px;
+}
+.detail-button.active{
+    background-color:red;
 }

@@ -17,6 +17,14 @@ $('.header-button').click(function () {
 
 });
 
+$('.detail-button').click(function () {
+    $('.detail-button').removeClass('active');
+    $(this).addClass('active');
+    id = $(this).data("target");
+
+    $('.carrer-inside-detail').hide();
+    $("#"+id).show();
+});
 
 // document.onmousedown=disableclick;
 // function disableclick(event){
