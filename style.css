@@ -115,8 +115,21 @@ h3{
     padding-right:10px;
     border:1px solid #000;
     background-color:#dcdcdc;
-    width:80px;
+    cursor:pointer;
+    margin-top:10px;
 }
 .detail-button.active{
     background-color:red;
+}
+.expansion-icon{
+    content:url(image/expansion-icon.png);
+    width:20px;
+}
+.career-right-area{
+    width:60%;
+}
+.expanstion-text{
+    font-size:14px;
+    font-weight:400;
+    line-height:20px;
 }

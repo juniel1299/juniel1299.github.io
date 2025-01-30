@@ -18,12 +18,16 @@ $('.header-button').click(function () {
 });
 
 $('.detail-button').click(function () {
-    $('.detail-button').removeClass('active');
-    $(this).addClass('active');
+    $('.detail-button').toggleClass('active');
     id = $(this).data("target");
 
-    $('.carrer-inside-detail').hide();
-    $("#"+id).show();
+    if(!$('#' + id).hasClass('active')){
+        $('#' + id).addClass('active')
+    }
+    else
+    {
+        $('#' + id).removeClass('active')
+    }
 });
 
 // document.onmousedown=disableclick;
