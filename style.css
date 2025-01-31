@@ -106,7 +106,7 @@ h3{
     display:none;
 }
 .detail-career-area.active{
-    display:flex;
+    display:block;
 }
 /* 변경 예정 */
 .detail-button{
@@ -116,7 +116,8 @@ h3{
     border:1px solid #000;
     background-color:#dcdcdc;
     cursor:pointer;
-    margin-top:10px;
+    margin-top:10px;    
+    width: fit-content;
 }
 .detail-button.active{
     background-color:red;
@@ -132,4 +133,10 @@ h3{
     font-size:14px;
     font-weight:400;
     line-height:20px;
+}
+.expansion-area{
+    margin-top:20px;
+}
+.expansion-title{
+    margin:20px 0px;
 }
