@@ -1,12 +1,13 @@
-import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Layout, Menu } from 'antd';
+import Home from './pages/Home';
 
-function App() {
+const { Header, Content, Footer } = Layout;
 
+export default function App() {
   return (
-    <>
-      
-    </>
-  )
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+  );
 }
-
-export default App
