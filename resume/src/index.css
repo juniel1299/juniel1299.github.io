@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html {
+  @apply w-2/3 justify-self-center
+}

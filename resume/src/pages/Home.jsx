@@ -1,12 +1,13 @@
 import { Layout, Menu } from 'antd';
 import HeaderLayout from '../components/layout/HeaderLayout';
-import Introduce from '../components/layout/Introduce';
+import Profile from '../components/layout/Profile';
+
 
 function Home() {
   return (
     <div className='h-full w-full'>
       <HeaderLayout></HeaderLayout>
-      <Introduce className="h-2/3"></Introduce>
+      <Profile className="h-2/3"></Profile>
     </div>
   );
 }
